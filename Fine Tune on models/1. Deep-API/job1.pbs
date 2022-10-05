@@ -1,0 +1,16 @@
+#!/bin/bash
+
+#PBS -l walltime=168:00:00,select=1:ncpus=4:mem=16gb:ngpus=2:gpu_mem=32gb
+#PBS -N DEEP-API
+#PBS -A st-fhendija-1-gpu
+#PBS -o output_deep_api.txt
+#PBS -e error_deep_api.txt
+#PBS -m abe
+#PBS -M mohammad.hadi@ubc.ca
+ 
+################################################################################
+
+cd /scratch/st-fhendija-1/mohammad/deep-API-replica/
+source deep-api-venv/bin/activate
+python train.py
+python sample.py

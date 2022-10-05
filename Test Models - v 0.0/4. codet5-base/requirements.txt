@@ -1,0 +1,5 @@
+SentencePiece
+transformers
+datasets==1.0.2
+rouge_score
+nltk
