@@ -8,6 +8,7 @@ if __name__ == "__main__":
     vocabulary = tokenizer.get_vocab().keys()
 
     new_words = [] # list of API_Names that needs to be incorporated in the PTM vocabulary 
+
     for word in new_words:
         tokenizer.add_tokens(word)
 
