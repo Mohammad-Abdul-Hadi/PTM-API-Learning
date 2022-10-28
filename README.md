@@ -8,6 +8,6 @@ Otherwise, just to test the resulting models on the test data, please redirect t
 - *Test Models on Test data v 1.0* refer to the models that were trained with tokenization approach - 1.
 - *Test Models on Test data v 2.0* refer to the models that were trained withwith tokenization approach - 2.
 
-The datasets and models can be found [here](https://drive.google.com/file/d/1JMDt9Y7E7dTf54DbOlTFuvB6cGFXCYg9/view?usp=sharing)
+The [datasets](https://drive.google.com/drive/folders/1-3ZsXYJaCmh9Re0BugkHYYDRTvH41_ld?usp=sharing) and [models](https://drive.google.com/drive/folders/1YDNXx-1rLypgfctIs9zDpFj_9N2ND3xW?usp=sharing) can be found in the provided links.
 
 -Thanks
